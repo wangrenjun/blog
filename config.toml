@@ -1,0 +1,67 @@
+theme = "jane"
+baseURL = "https://wangrenjun.github.io/"
+title = "Wang Renjun's blog"
+enableRobotsTXT = true
+enableEmoji = true
+defaultContentLanguage = "zh-cn"
+languageCode = "zh-cn"
+hasCJKLanguage = true
+paginate = 5
+rssLimit = 20
+copyright = "Wang Renjun"
+summaryLength = 200
+
+[author]
+  name = "Wang Renjun"
+  bio = ""
+  avatar = "https://avatars2.githubusercontent.com/u/1911620"
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[menu]
+  [[menu.main]]
+    name = "Archives"
+    weight = 10
+    identifier = "archives"
+    url = "/post/"
+
+  [[menu.main]]
+    name = "Tags"
+    weight = 20
+    identifier = "tags"
+    url = "/tags/"
+
+  [[menu.main]]
+    name = "Categories"
+    weight = 30
+    identifier = "categories"
+    url = "/categories/"
+
+  [[menu.main]]
+    name = "About"
+    weight = 40
+    identifier = "about"
+    url = "/about"
+
+[params]
+  logoTitle = "Wang Renjun's blog"
+  since = "2020"
+  homeFullContent = false
+  rssFullContent = true
+  dateFormatToUse = "2006-01-02 15:04:05"
+  toc = true
+  photoswipe = true
+  contentCopyright = '<a rel="license noopener" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a>'
+  # paginateOriginalStyle = true
+
+  [params.social]
+    a-email = "mailto:wangrj1981@gmail.com"
+    g-github = "https://github.com/wangrenjun/"
+
